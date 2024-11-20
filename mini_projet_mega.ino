@@ -57,7 +57,7 @@ void loop() {
     lcd.setCursor(0, 0);
     lcd.print("Acces bloque !");  // Message de blocage
     lcd.setCursor(0, 1);
-    lcd.print("Error-Code-1034");  // Message de blocage
+    lcd.print("Error-Code-1034");  // Le code 1034 indique un statut lié à un trop grand nombre de tentatives infructueuses de saisie de mot de passe.
     lcd.setRGB(255, 0, 0);      // Fond rouge pour signaler l'erreur
     while (1);                  // Boucle infinie pour bloquer le programme
   }
